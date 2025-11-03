@@ -13,9 +13,11 @@ public class Excel : MonoBehaviour
     {
         public string words;
         public int type;
-        public string difficulty;
-        public string size;
+        public int size;
+        public int pairNumber;
+        public int orderStart;
     }
+    [System.Serializable]
     public class DataList
     {
         public Data[] emailData;
@@ -32,17 +34,18 @@ public class Excel : MonoBehaviour
     // Update is called once per frame
     void ReadCSV()
     {
-        string[] data = emailList.text.Split(new String[] { ",", "/n" }, StringSplitOptions.None);
-        int tableSize = data.Length / 4 - 1;
+        string[] data = emailList.text.Split(new String[] { ",", "\n" }, StringSplitOptions.None);
+        int tableSize = data.Length / 5 - 1;
         myDataList.emailData = new Data[tableSize];
         for (int i = 0; i < tableSize; i++)
         {
 
             myDataList.emailData[i] = new Data();
-            myDataList.emailData[i].words = data[4 * (i + 1)];
-            myDataList.emailData[i].type = int.Parse(data[4 * (i + 1) + 1]);
-            myDataList.emailData[i].difficulty = data[4 * (i + 1) + 2];
-            myDataList.emailData[i].size = data[4 * (i + 1) + 3];
+            myDataList.emailData[i].words = data[5 * (i + 1)];
+            myDataList.emailData[i].type = int.Parse(data[5 * (i + 1) + 1]);
+            myDataList.emailData[i].size = int.Parse(data[5 * (i + 1) + 2]);
+            myDataList.emailData[i].pairNumber = int.Parse(data[5 * (i + 1) + 3]);
+            myDataList.emailData[i].orderStart = int.Parse(data[5 * (i + 1) + 4]);
         }
 
     }
