@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24a5f2c20b0871644a337f6b4775751e, type: 3}
   m_Name: You've Won
   m_EditorClassIdentifier: 
-  senderType: 0
+  senderType: 4
   phishingType: 4
   subjects:
   - Congratulations!
