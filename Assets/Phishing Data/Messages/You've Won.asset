@@ -24,5 +24,13 @@ MonoBehaviour:
   - Congratulations
   part1s:
   - Thank you for participating in our sweepstakes
-  part2s: []
-  part3s: []
+  - We hope this finds you at a good time
+  - We have some exciting news to share!
+  part2s:
+  - We've just gotten word that you've just won a trip to London, Ontario!
+  - We've just gotten word that you've just won a lifetime supplies of baguettes!
+  - Your membership has been renewed for another 15 years for FREE!
+  part3s:
+  - Click here to claim now!
+  - 'Claim it at our number: 676-767-6767'
+  - Click on the attatchment to claim now!

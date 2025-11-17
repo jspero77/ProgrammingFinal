@@ -87,6 +87,8 @@ public class DataImporter : ScriptableObject
         asset.subjects = GetAllVariants(row, next, table, "Subject");
         asset.greetings = GetAllVariants(row, next, table, "Greeting");
         asset.part1s = GetAllVariants(row, next, table, "Part 1");
+        asset.part2s = GetAllVariants(row, next, table, "Part 2");
+        asset.part3s = GetAllVariants(row, next, table, "Part 3");
     }
 
     /// <summary>
