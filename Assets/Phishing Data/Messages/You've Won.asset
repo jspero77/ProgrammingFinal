@@ -21,6 +21,7 @@ MonoBehaviour:
   greetings:
   - Hello contestant,
   - You've won!
+  - U IS WINNER
   - Congratulations
   part1s:
   - Thank you for participating in our sweepstakes
@@ -33,4 +34,5 @@ MonoBehaviour:
   part3s:
   - Click here to claim now!
   - 'Claim it at our number: 676-767-6767'
+  - U WIN
   - Click on the attatchment to claim now!

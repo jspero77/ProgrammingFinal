@@ -9,18 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24a5f2c20b0871644a337f6b4775751e, type: 3}
-  m_Name: Routine IT
+  m_Script: {fileID: 11500000, guid: d7d24bdf177f7bf4180132ae01a3606f, type: 3}
+  m_Name: Day 2
   m_EditorClassIdentifier: 
-  senderType: 2
-  phishingType: 0
-  subjects:
-  - Defrag
-  greetings:
-  - Hi
-  part1s:
-  - lol
-  part2s:
-  - okay
-  part3s:
-  - good talk
+  emails:
+  - {fileID: 11400000, guid: 62efd329f33fd214787be28b60718367, type: 2}

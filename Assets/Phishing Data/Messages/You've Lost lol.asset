@@ -16,7 +16,11 @@ MonoBehaviour:
   phishingType: 5
   subjects:
   - You've lost!
-  greetings: []
-  part1s: []
-  part2s: []
-  part3s: []
+  greetings:
+  - Hi
+  part1s:
+  - Hello
+  part2s:
+  - lol
+  part3s:
+  - yep

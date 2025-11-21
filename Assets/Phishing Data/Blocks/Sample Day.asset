@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5639a95024bfb344a90336dbc26d8c7e, type: 3}
+  m_Name: Sample Day
+  m_EditorClassIdentifier: 
+  blocks:
+  - pulls:
+    - collection: {fileID: 11400000, guid: b9a5fc0a2f2a39d45baef1afa81970fe, type: 2}
+      count: 3
+    - collection: {fileID: 11400000, guid: f86f107f6e66f694db47f2ddeafbbf11, type: 2}
+      count: 2
+    shuffle: 1
+  - pulls:
+    - collection: {fileID: 11400000, guid: 7f332151bee880a4c9a96b77e0504ff6, type: 2}
+      count: 1
+    shuffle: 0
