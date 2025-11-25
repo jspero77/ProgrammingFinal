@@ -9,20 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24a5f2c20b0871644a337f6b4775751e, type: 3}
-  m_Name: Routine IT
+  m_Script: {fileID: 11500000, guid: a5e78f59f49bc9a4181ff10ad237c5f1, type: 3}
+  m_Name: Jack Spero
   m_EditorClassIdentifier: 
-  senderType: 2
-  phishingType: 0
-  subjects:
-  - Defrag
-  greetings:
-  - Hi
-  part1s:
-  - lol
-  part2s:
-  - okay
-  part3s:
-  - good talk
-  signoffs:
-  - TI
+  type: 3
+  displayName: Jack Spero
+  emailAddress: jack@porgram.net
+  emailProfile: {fileID: 0}
