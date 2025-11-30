@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 4
   displayName: Prince Xorthlap
+  firstName: Prince
+  lastName: Xorthlap
   emailAddress: x43toiugn@mars.info
   emailProfile: {fileID: 0}

@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 3
   displayName: Mort Ified
+  firstName: Mort
+  lastName: Ified
   emailAddress: Morty@mort.mort
   emailProfile: {fileID: 0}

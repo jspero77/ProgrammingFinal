@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24a5f2c20b0871644a337f6b4775751e, type: 3}
   m_Name: You've Won
   m_EditorClassIdentifier: 
-  senderType: 4
+  senderType: 3
   phishingType: 4
   subjects:
   - Congratulations!
   - Con6ra+ulation$!
+  - P1
   - You win!
   greetings:
   - Hello contestant,
@@ -26,6 +27,7 @@ MonoBehaviour:
   part1s:
   - Thank you for participating in our sweepstakes
   - We hope this finds you at a good time
+  - I just spoke to R2 and you've won!
   - We have some exciting news to share!
   part2s:
   - We've just gotten word that you've just won a trip to London, Ontario!

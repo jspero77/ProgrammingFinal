@@ -34,6 +34,8 @@ public class DataImporter : ScriptableObject
                 asset.displayName = name;
 
             asset.emailAddress = senders.GetValue<string>(row, "Email");
+            asset.firstName = senders.GetValue<string>(row, "First Name");
+            asset.lastName = senders.GetValue<string>(row, "Last Name");
             if (senders.TryGetEnum<SenderType>(row, "Type", out var type))
             {
                 asset.type = type;

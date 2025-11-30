@@ -16,7 +16,7 @@ MonoBehaviour:
   phishingType: 1
   subjects:
   - Uh Oh!
-  - This is bad!
+  - This is bad P1!
   - Goverment made me forget my passcode!
   greetings:
   - Dude! Help me!
@@ -24,6 +24,7 @@ MonoBehaviour:
   part1s:
   - I got locked out of my computer!
   - I can't log into my computer.
+  - 'I talked with Q2 and '
   part2s:
   - Do you remember what my password is?
   - The sticky note where I write all my passwords is gone!
@@ -35,4 +36,4 @@ MonoBehaviour:
   signoffs:
   - 'Cautious as always,
 
-    - Q1'
+    - Q2'

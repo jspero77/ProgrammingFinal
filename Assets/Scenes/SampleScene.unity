@@ -410,7 +410,12 @@ MonoBehaviour:
   part3: 
   subject: 
   signoff: 
-  from: 
+  Q1: 
+  Q1first: 
+  Q1last: 
+  R1: 
+  R1first: 
+  R1last: 
   froms: 
   senderAddress: 
   emailCollectionGood: {fileID: 11400000, guid: f86f107f6e66f694db47f2ddeafbbf11, type: 2}
@@ -418,6 +423,8 @@ MonoBehaviour:
   sequence: {fileID: 11400000, guid: 881fcd477e517524da655130515bd9be, type: 2}
   directory: {fileID: 11400000, guid: f1a419ca5da315a4a88dab88dabe2ae5, type: 2}
   emailNumber: 0
+  Q2: 
+  playerName: Jake
 --- !u!1 &1072877012
 GameObject:
   m_ObjectHideFlags: 0

@@ -21,5 +21,5 @@ MonoBehaviour:
     shuffle: 1
   - pulls:
     - collection: {fileID: 11400000, guid: 7f332151bee880a4c9a96b77e0504ff6, type: 2}
-      count: 1
+      count: 10
     shuffle: 0

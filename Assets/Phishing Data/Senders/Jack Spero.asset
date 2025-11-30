@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 3
   displayName: Jack Spero
+  firstName: Jack
+  lastName: Spero
   emailAddress: jack@porgram.net
   emailProfile: {fileID: 0}

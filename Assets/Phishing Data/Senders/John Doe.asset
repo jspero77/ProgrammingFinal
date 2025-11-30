@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 3
   displayName: John Doe
+  firstName: John
+  lastName: Doe
   emailAddress: jdoe@corp.com
   emailProfile: {fileID: 0}
